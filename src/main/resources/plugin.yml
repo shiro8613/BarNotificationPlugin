@@ -1,0 +1,6 @@
+name: BarNotificationPlugin
+version: '${project.version}'
+main: com.github.shiro8613.barnotificationplugin.BarNotificationPlugin
+api-version: 1.19
+authors: [ shiro8613 ]
+description: アクションバー・ボスバーにお知らせ等を表示させるプラグイン
