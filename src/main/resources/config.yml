@@ -1,0 +1,16 @@
+actionbar:
+  time: 5
+  color: "#ffffff"
+  database:
+    - aa
+    - bb
+    - cc
+
+bossbar:
+  color: "rainbow"
+  time: 5
+  database:
+    - dd
+    - ee
+    - ff
+

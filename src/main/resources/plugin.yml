@@ -4,3 +4,13 @@ main: com.github.shiro8613.barnotificationplugin.BarNotificationPlugin
 api-version: 1.19
 authors: [ shiro8613 ]
 description: アクションバー・ボスバーにお知らせ等を表示させるプラグイン
+commands:
+  barnotification:
+    usage: "/bn <actionbar | bossbar | reload> <list | add | edit | remove > [..moreArgs]"
+    permission: barnotificationplugin
+    aliases: ["bn"]
+
+permissions:
+  barnotificationplugin:
+    description: 全権
+    default: op
